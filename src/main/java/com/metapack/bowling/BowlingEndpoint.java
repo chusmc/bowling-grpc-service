@@ -4,7 +4,7 @@ import io.grpc.stub.StreamObserver;
 import javax.inject.Singleton;
 
 @Singleton
-public class BowlingEndpoint extends BowlingScoreGrpc.BowlingScoreImplBase { // <1>
+public class BowlingEndpoint extends BowlingScoreGrpc.BowlingScoreImplBase {
 
     private final BowlingService bowlingService;
 
